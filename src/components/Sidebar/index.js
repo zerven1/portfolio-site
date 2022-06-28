@@ -25,12 +25,12 @@ const Sidebar = () => (
         </nav>
         <ul>
             <li>
-                <a target="_blank" rel="noreferrer" href="https://www.google.com">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/tomasz-grzebieniak-816988243">
                     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4d"/>
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noreferrer" href="https://www.google.com">
+                <a target="_blank" rel="noreferrer" href="https://github.com/Zerven1/">
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4d"/>
                 </a>
             </li>
