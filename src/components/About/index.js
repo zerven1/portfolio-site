@@ -31,7 +31,17 @@ const About = () => {
                 <p>I am a beginner frontend developer looking for continuous development opportunities.
                    I am looking for a company offering interesting projects based on the latest technologies.</p>
                 <p>I am characterized by the ability to work in a team and quickly learn new technologies.</p>
-                <p>In my projects im using: Vue.js and  React as a javascript frameworks and SASS to styles.</p>
+                <p>In my projects im using:<br />
+                     Vue.js <br />
+                     Vuex <br />
+                     React <br />
+                     Redux<br />
+                     Javascript <br />
+                     CSS3 <br />
+                     SASS <br />
+                     Node.js - basic<br />
+                     Express.js -basic<br />
+                     </p>
             </div>
 
             <div className='stage-cube-cont'>

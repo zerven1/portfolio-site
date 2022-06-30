@@ -106,3 +106,31 @@
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
 }
+
+@media screen and (max-width: 1500px) {
+
+    .info-map{
+        right:15%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .map-wrap{
+        width:90%;
+        height:30%;
+        margin-top:60vh;
+    }
+    .info-map{
+        right:45vw;
+        left:15vw;
+        margin-top:68vh;
+        width:120px;
+        font-size:10px;
+        padding:10px;
+        span{
+            font-size:10px;
+        }
+    }
+
+}
