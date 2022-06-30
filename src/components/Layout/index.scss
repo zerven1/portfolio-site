@@ -105,3 +105,38 @@
         }
     }
 }
+
+
+@media screen and (max-width: 900px) {
+
+    .about-page{
+        .text-zone{
+           top:60%;
+           width:50%;
+            h1{
+              font-size: 35px;
+            }
+  
+            p{
+              font-size: 12px;
+            }
+        }
+    }
+    .contact-page{
+        .text-zone{
+            top:35%;
+            width:75%;
+            left:20%;
+
+            h1{
+                font-size:35px;
+            }
+            p{
+                font-size:13px
+            }
+            .contact-form{
+                
+            }
+        }
+    }
+  }

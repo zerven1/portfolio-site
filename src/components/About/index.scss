@@ -107,3 +107,114 @@
       transform:  rotateZ(90deg);
     }
   }
+
+
+  @media screen and (max-width: 1100px) {
+
+    .about-page{
+        .text-zone{
+            left:15%;
+
+            h1{
+              font-size: 43px;
+            }
+
+            p{
+              font-size: 14px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1100px) {
+
+  .about-page{
+      .text-zone{
+          h1{
+            font-size: 33px;
+          }
+
+          p{
+            font-size: 12px;
+          }
+      }
+  }
+  .stage-cube-cont{
+    padding-top:30%;
+    .cubespinner{
+
+      div{
+        height:200px;
+        width:200px;
+        font-size:100px;
+      }
+    .face1 {
+        transform:translateZ(100px);
+    }
+    .face2 {
+        transform: rotateY(90deg) translateZ(100px);
+    }
+    .face3 {
+        transform: rotateY(-90deg) translateZ(100px);
+    }
+    .face4 {
+        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+    }
+    .face5 {
+        transform: rotateY(90deg) rotateX(-90deg) rotateZ(180deg) translateZ(100px);
+    }
+    .face6 {
+        transform: rotateY(180deg)  translateZ(100px);
+    }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+
+  .about-page{
+      .text-zone{
+         top:70%;
+         width:70%;
+         left:30%;
+          h1{
+            font-size: 35px;
+          }
+
+          p{
+            font-size: 12px;
+          }
+      }
+  }
+  .stage-cube-cont{
+    width:100%;
+    height: 100%;
+    top: 0;
+    padding-top: 15%;
+    .cubespinner{
+
+      div{
+        height:150px;
+        width:150px;
+        font-size:75px;
+      }
+    .face1 {
+        transform:translateZ(75px);
+    }
+    .face2 {
+        transform: rotateY(90deg) translateZ(75px);
+    }
+    .face3 {
+        transform: rotateY(-90deg) translateZ(75px);
+    }
+    .face4 {
+        transform: rotateY(90deg) rotateX(90deg) translateZ(75px);
+    }
+    .face5 {
+        transform: rotateY(90deg) rotateX(-90deg) rotateZ(180deg) translateZ(75px);
+    }
+    .face6 {
+        transform: rotateY(180deg)  translateZ(75px);
+    }
+    }
+
+}
+}
